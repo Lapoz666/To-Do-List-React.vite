@@ -12,7 +12,7 @@ export const TodoForm = ({ addTodo }) => {
       setValue('');
     }
   };
-
+//setting value of each item
   return (
     <form className="TodoForm" onSubmit={handleSubmit}>
       <input
